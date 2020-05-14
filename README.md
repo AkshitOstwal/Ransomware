@@ -4,12 +4,12 @@ A quick and simple ransomware executable that can encrypt the data with one clic
 Instruction:-
 
 Method 1:-
-Either download the executable only and create a folder named test in the same directory.
+Either download the executable only and create a folder named test in the previous directory(../test).
 Run the executable and it will corrupt the (zip,rar,png,jpg,txt,pdf) files in the test directory and subdirectory
 Don't change the keyfile and rerun again to decrypt the data
 
 Method 2:-
-download the python file and the png and create a folder named test in the same directory.
+download the python file and the png and create a folder named test in the previous directory(../test).
 Run the python file and it will corrupt the (zip,rar,png,jpg,txt,pdf) files in the test directory and subdirectory
 Don't change the keyfile and rerun again to decrypt the data
 
